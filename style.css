@@ -1,23 +1,30 @@
+@font-face {
+  font-family: Octave;
+  src: url(assets/Bold.otf);
+}
+
 html, body {
   margin: 0;
   padding: 0;
   background-color: #2C2C2C ;
+  font-family: Octave;
+
 }
 
 canvas {
   display: block;
 }
 
-@font-face {
-  font-family: Octave;
-  src: url(assets/Bold.otf);
-}
+
 
 .textBox {
   font-family: Octave;
   font-size: 50px;
-  background-color: #DC2404;
-  color: #2C2C2C;
+  line-height: 60%;
+  background-color: #f1f1f1;
   padding: 0px;
+  color: #2C2C2C;
+  /* padding: 0px; */
+  
   white-space: pre-wrap;
 }
